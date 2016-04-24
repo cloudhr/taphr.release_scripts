@@ -1,4 +1,2 @@
 #!/usr/bin/env bash
-$NODE_APP_DIRECTORY
-apt-get install zip
-zip ../api_server.zip -r * .[^.]*
+git
