@@ -10,3 +10,7 @@ echo "check amamzon elastic beanstalk version"
 eb --version
 
 echo "Authenticating AWS with Keys: $AWS_ACCESS_KEY and $AWS_SECRET_KEY"
+
+echo "Creating project Archive..."
+echo "Deploying to amazon..."
+eb deploy
