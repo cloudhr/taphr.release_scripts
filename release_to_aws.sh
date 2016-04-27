@@ -15,6 +15,6 @@ eb --version
 cd $APP_DIRECTORY
 
 #deploys to amazon default branch
-echo "Deploying to amazon env : $AWS_ENV_NAME"
+echo "Deploying to amazon env : " $AWS_ENV_NAME
 eb use $AWS_ENV_NAME
 eb deploy
